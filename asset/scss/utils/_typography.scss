@@ -1,0 +1,53 @@
+// change the values, fonts and class names to suit your needs 
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import './settings';
+
+
+$primary-font:  'Commissioner', sans-serif;
+
+
+
+.para {
+    font-family: $primary-font;
+    color:$black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $primary-font;
+    font-weight: 900;
+}
+
+.big-heading {
+    font-size: 2.2rem;
+}
+
+.med-heading {
+    font-size: 1.2rem;
+ 
+}
+
+.small-heading {
+    font-size: 1.1rem;
+}
+
+.nav-links{
+    color: white;
+}
+.bold-text {
+    font-weight: 900;
+}
+
+.black-text{
+    color: black;
+    font-weight: 900;
+}
+
+.cyan-text{
+    color: $primary-color;
+    font-weight: 600;
+
+}

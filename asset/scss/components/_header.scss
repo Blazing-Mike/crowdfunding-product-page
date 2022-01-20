@@ -1,0 +1,88 @@
+@import "../utils/settings";
+//styles that belongs to header
+.Hero{
+    background: url('/images/image-hero-mobile.jpg') top;
+    height: 400px;
+
+    .Navbar{
+        justify-content: space-between;
+        padding: 10px;
+
+        .Navbar__items{
+            display: none;
+        }
+    }
+}
+
+.back-project__container{
+    transform: translateY(-50px);
+    width: 20rem;
+    background: white;
+    border: 1px solid  $primary-color-2;
+    padding: 10px;
+    text-align: center;
+    z-index: 2;
+    border-radius: 10px;
+
+    .para{
+        padding: 10px 0;
+    }
+
+    .bookmark-icon{
+        width: 3rem;
+    }
+
+    .bookmark-btn{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    .Hero{
+        background: url('/images/image-hero-desktop.jpg') top;
+        height: 400px;
+    
+        .Navbar{
+            padding: 30px 40px;
+    
+            .Navbar__items{
+                display: flex;
+                gap: 1rem;
+            }
+
+            .Navbar__menu{
+                display: none;
+            }
+        }
+    }
+
+    .back-project__container{
+        transform: translateY(-100px);
+        width: 50rem;
+        background: white;
+        border: 1px solid  $primary-color-2;
+        padding: 10px;
+        text-align: center;
+        z-index: 2;
+        border-radius: 10px;
+    
+        .para{
+            padding: 10px 0;
+        }
+    
+      .btn-section{
+          justify-content: space-between;
+          margin: 1rem;
+      }
+        .bookmark-icon{
+            width: 3rem;
+            position: absolute;
+      
+        }
+
+        .bookmark-btn{
+            display:block;
+        }
+    
+    }
+}

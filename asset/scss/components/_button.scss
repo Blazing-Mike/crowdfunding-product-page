@@ -1,0 +1,149 @@
+@import "../utils/settings";
+//styles that belongs to buttons. Add classes you need, feel free to break stuffs to suit your need
+
+.primary-btn{
+    height: 3.5rem ;
+    width: 12rem;
+    border-radius: 30px;
+    border: transparent;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background: $primary-color;
+    padding-bottom: 5px;
+}
+
+.sec-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    padding-top: 5px;
+    @extend .primary-btn
+
+}
+
+.small-btn{
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 15px;
+  background: $primary-color-2;
+  border-radius: 30px;
+  border: transparent;
+  font-weight: 700;
+  color: white;
+}
+
+.contd-btn{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: transparent;
+  background: $primary-color;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem
+}
+
+.bookmark-btn{
+  width: 10rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: transparent;
+text-align: center;
+font-weight: 700;
+  padding: 10px;
+  padding-left: 2rem;
+}
+.disabled{
+    background: rgb(173, 170, 170);
+}
+/* Customize the label (the container) */
+.modal__pledge-item{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 900;
+    font-size: 0.9rem;
+
+    .pledge-heading{
+        margin: 0 1rem;
+    }
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color:$primary-color;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+}
+
+.plegde-amount{
+  border-radius: 30px;
+  height: 3rem;
+  width: 5rem;
+  border: 1px solid $dark-grey;
+  text-align: center;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.close-modal-icon{
+  width: 1rem;
+}
