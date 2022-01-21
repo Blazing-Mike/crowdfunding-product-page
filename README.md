@@ -31,14 +31,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/design-preview.jpg)
+![](./design/desktop-preview.jpg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL ](https://github.com/Blazing-Mike/crowdfunding-product-page)
+- Live Site URL: [live site](https://your-live-site-url.com)
 
 ## My process
 
