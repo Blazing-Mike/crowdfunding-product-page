@@ -14,8 +14,6 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,7 +30,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/desktop-preview.jpg)
-
 
 
 ### Links
@@ -60,7 +57,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen) - This helped me make the modal scrollable, even if the fix did'nt solve it all. 
+- [Making a modal scrollable](https://stackoverflow.com/questions/10476632/how-to-scroll-the-page-when-a-modal-dialog-is-longer-than-the-screen) - This helped me make the modal scrollable, even if the fix did'nt solve it all. 
 
 
 ## Author
